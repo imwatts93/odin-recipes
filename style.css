@@ -26,8 +26,22 @@ h1 {
 }
 
 .ingredientsList,
-.stepsList { 
-    padding-left: 2rem;
+.stepsList,
+.description {
+    background-color: rgba(240, 235, 235, .5); 
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.description {
+    max-width: 75%;
+}
+
+.ingredientsList,
+.stepsList {
+    max-width: 500px;
 }
 
 ol ul {
