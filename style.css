@@ -8,9 +8,10 @@ body {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    background-color: rgba(58, 36, 8, 0.295);
 
     list-style: none;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
 }
 
